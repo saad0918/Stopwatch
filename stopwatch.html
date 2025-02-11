@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>StopWatch</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        </ul>
+    </nav>
+    
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="./Images/stop.png" onclick="watchStop()" alt="">
+            <img src="./Images/start.png" onclick="watchStart()" alt="">
+            <img src="./Images/reset.png" onclick="watchReset()" alt="">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
